@@ -11,23 +11,21 @@ import UIKit
 class ProductsViewModel {
     lazy var isReponseData: LiveData<Bool> = LiveData(false)
     var productsService = ProductService()
-    var products = [ProductModel]()
+    var products = [Product]()
     
     
     init() {
-        productsService.delegate = self
-        getProducts()
+       productsService.delegate = self
+       getProducts()
     }
     
     
     func getProducts() {
-        productsService.getProducts { data in
-            if let results: [ProductModel] = data?.results {
-                self.products = results
-                self.isReponseData.value = true
-            }
+        productsService.getLocalList { products in
+            self.products = products ?? []
+            self.isReponseData.value = true
+
         }
-        
     }
 }
 

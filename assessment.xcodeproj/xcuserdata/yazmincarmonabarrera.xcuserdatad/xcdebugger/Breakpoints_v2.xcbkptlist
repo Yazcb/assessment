@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E7C2D8B6-0A37-4D9F-A38E-CCBBB82DF683"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A07C128A-0CFC-4FE2-AD78-4B925989CF8E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "assessment/Services/Manager/ServiceManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "request(urlString:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FE85F048-4496-489E-967F-54DE08C833F8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "assessment/Exercise2/ViewModel/ProductsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "getProducts()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "14F1E9C6-4BF9-4D83-A0DB-9F7C004E19E4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "assessment/Services/Parser/ProductParser.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "parserData(data:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "14F1E9C6-4BF9-4D83-A0DB-9F7C004E19E4 - 72f48e00c39efa5e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in static assessment.ProductParser.parserData(data: Swift.Array&lt;assessment.ProductModel&gt;, completion: () -&gt; ()) -&gt; ()"
+                  moduleName = "assessment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yazmincarmonabarrera/Documents/assessment/assessment/Services/Parser/ProductParser.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "171"
+                  endingLineNumber = "171"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "14F1E9C6-4BF9-4D83-A0DB-9F7C004E19E4 - 72f48e00c39efa5e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in static assessment.ProductParser.parserData(data: Swift.Array&lt;assessment.ProductModel&gt;, completion: () -&gt; ()) -&gt; ()"
+                  moduleName = "assessment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yazmincarmonabarrera/Documents/assessment/assessment/Services/Parser/ProductParser.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "171"
+                  endingLineNumber = "171"
+                  offsetFromSymbolStart = "368">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6473130C-20A7-4703-BCB5-B52AFCD01F60"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "assessment/Services/ProductService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "getLocalList(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6473130C-20A7-4703-BCB5-B52AFCD01F60 - b1625a7ee9897c1e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in assessment.ProductService.getLocalList(text: Swift.String, completion: (Swift.Optional&lt;Swift.Array&lt;assessment.ProductModel&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "assessment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yazmincarmonabarrera/Documents/assessment/assessment/Services/ProductService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "6473130C-20A7-4703-BCB5-B52AFCD01F60 - 3cbf6486e86e8811"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in assessment.ProductService.getLocalList(completion: (Swift.Optional&lt;Swift.Array&lt;assessment.ProductModel&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "assessment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yazmincarmonabarrera/Documents/assessment/assessment/Services/ProductService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A1FD7B9B-81CB-4D40-B78F-7D9E7AA7CF8F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "assessment/Services/Parser/ProductParser.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "parserData(data:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DF8FC3E2-FFB5-4B16-A6F7-925CBB1530F1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "assessment/Services/Manager/DataManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "fetchRequestFrom(entityName:context:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2F3048D3-6535-4370-B72D-BCCB4F4960DD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "assessment/Exercise2/ViewModel/ProductsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "init()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EAEAD482-5AEC-4793-9FE3-FCF6407F5C33"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "assessment/Services/ProductService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "getLocalList(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

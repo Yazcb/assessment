@@ -42,7 +42,7 @@ class TableViewController: UITableViewController {
     
     func setCellData(indexPath: IndexPath) -> CellData {
         let item = self.viewModel.products[indexPath.row]
-        return  CellData(title: item.product, subTitle: String(item.price))
+        return  CellData(title: item.product ?? "", subTitle: String(item.price))
     }
 }
 

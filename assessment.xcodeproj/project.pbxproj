@@ -29,6 +29,9 @@
 		11EAE27B2B33563C00D35782 /* generalTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11EAE27A2B33563C00D35782 /* generalTableViewCell.xib */; };
 		11EAE27D2B33564E00D35782 /* generalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EAE27C2B33564E00D35782 /* generalTableViewCell.swift */; };
 		11EAE27F2B3358E000D35782 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EAE27E2B3358E000D35782 /* TableViewController.swift */; };
+		11EAE2822B33624500D35782 /* ProductParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EAE2812B33624500D35782 /* ProductParser.swift */; };
+		11EAE2842B336DD500D35782 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EAE2832B336DD500D35782 /* DataManager.swift */; };
+		11EAE2862B336E1200D35782 /* ManageObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EAE2852B336E1200D35782 /* ManageObjectExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +77,9 @@
 		11EAE27A2B33563C00D35782 /* generalTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = generalTableViewCell.xib; sourceTree = "<group>"; };
 		11EAE27C2B33564E00D35782 /* generalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generalTableViewCell.swift; sourceTree = "<group>"; };
 		11EAE27E2B3358E000D35782 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		11EAE2812B33624500D35782 /* ProductParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductParser.swift; sourceTree = "<group>"; };
+		11EAE2832B336DD500D35782 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		11EAE2852B336E1200D35782 /* ManageObjectExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageObjectExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +203,7 @@
 		11EAE2622B33533900D35782 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				11EAE2802B33623900D35782 /* Parser */,
 				11EAE2672B3353AA00D35782 /* Manager */,
 				11EAE26E2B3353F500D35782 /* ProductService.swift */,
 				11EAE2702B33541600D35782 /* BaseService.swift */,
@@ -216,6 +223,8 @@
 			isa = PBXGroup;
 			children = (
 				11EAE2692B3353BE00D35782 /* ServiceManager.swift */,
+				11EAE2832B336DD500D35782 /* DataManager.swift */,
+				11EAE2852B336E1200D35782 /* ManageObjectExtension.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -227,6 +236,14 @@
 				11EAE27C2B33564E00D35782 /* generalTableViewCell.swift */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		11EAE2802B33623900D35782 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				11EAE2812B33624500D35782 /* ProductParser.swift */,
+			);
+			path = Parser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -368,7 +385,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				11EAE25C2B334CA800D35782 /* Utils.swift in Sources */,
+				11EAE2842B336DD500D35782 /* DataManager.swift in Sources */,
 				11EAE2782B3354E700D35782 /* ProductsViewModel.swift in Sources */,
+				11EAE2862B336E1200D35782 /* ManageObjectExtension.swift in Sources */,
 				11EAE27F2B3358E000D35782 /* TableViewController.swift in Sources */,
 				11EAE26F2B3353F500D35782 /* ProductService.swift in Sources */,
 				11EAE2662B33535500D35782 /* ProductModel.swift in Sources */,
@@ -379,6 +398,7 @@
 				11EAE26A2B3353BE00D35782 /* ServiceManager.swift in Sources */,
 				11EAE2752B3354C100D35782 /* LiveData.swift in Sources */,
 				11EAE22A2B334BDE00D35782 /* SceneDelegate.swift in Sources */,
+				11EAE2822B33624500D35782 /* ProductParser.swift in Sources */,
 				11EAE2712B33541600D35782 /* BaseService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
