@@ -17,6 +17,8 @@
 		11EAE2422B334BDF00D35782 /* assessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EAE2412B334BDF00D35782 /* assessmentTests.swift */; };
 		11EAE24C2B334BDF00D35782 /* assessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EAE24B2B334BDF00D35782 /* assessmentUITests.swift */; };
 		11EAE24E2B334BDF00D35782 /* assessmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EAE24D2B334BDF00D35782 /* assessmentUITestsLaunchTests.swift */; };
+		11EAE25C2B334CA800D35782 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EAE25B2B334CA800D35782 /* Utils.swift */; };
+		11EAE25E2B334E0100D35782 /* UtilsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EAE25D2B334E0100D35782 /* UtilsTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		11EAE2472B334BDF00D35782 /* assessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = assessmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11EAE24B2B334BDF00D35782 /* assessmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assessmentUITests.swift; sourceTree = "<group>"; };
 		11EAE24D2B334BDF00D35782 /* assessmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assessmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		11EAE25B2B334CA800D35782 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		11EAE25D2B334E0100D35782 /* UtilsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilsTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		11EAE2262B334BDE00D35782 /* assessment */ = {
 			isa = PBXGroup;
 			children = (
+				11EAE25A2B334C5500D35782 /* Exercise1 */,
 				11EAE2272B334BDE00D35782 /* AppDelegate.swift */,
 				11EAE2292B334BDE00D35782 /* SceneDelegate.swift */,
 				11EAE22B2B334BDE00D35782 /* ViewController.swift */,
@@ -117,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				11EAE2412B334BDF00D35782 /* assessmentTests.swift */,
+				11EAE25D2B334E0100D35782 /* UtilsTest.swift */,
 			);
 			path = assessmentTests;
 			sourceTree = "<group>";
@@ -128,6 +134,14 @@
 				11EAE24D2B334BDF00D35782 /* assessmentUITestsLaunchTests.swift */,
 			);
 			path = assessmentUITests;
+			sourceTree = "<group>";
+		};
+		11EAE25A2B334C5500D35782 /* Exercise1 */ = {
+			isa = PBXGroup;
+			children = (
+				11EAE25B2B334CA800D35782 /* Utils.swift */,
+			);
+			path = Exercise1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11EAE25C2B334CA800D35782 /* Utils.swift in Sources */,
 				11EAE22C2B334BDE00D35782 /* ViewController.swift in Sources */,
 				11EAE2322B334BDE00D35782 /* assessment.xcdatamodeld in Sources */,
 				11EAE2282B334BDE00D35782 /* AppDelegate.swift in Sources */,
@@ -273,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11EAE2422B334BDF00D35782 /* assessmentTests.swift in Sources */,
+				11EAE25E2B334E0100D35782 /* UtilsTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
