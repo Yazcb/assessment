@@ -19,6 +19,16 @@
 		11EAE24E2B334BDF00D35782 /* assessmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EAE24D2B334BDF00D35782 /* assessmentUITestsLaunchTests.swift */; };
 		11EAE25C2B334CA800D35782 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EAE25B2B334CA800D35782 /* Utils.swift */; };
 		11EAE25E2B334E0100D35782 /* UtilsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EAE25D2B334E0100D35782 /* UtilsTest.swift */; };
+		11EAE2662B33535500D35782 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EAE2652B33535500D35782 /* ProductModel.swift */; };
+		11EAE26A2B3353BE00D35782 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EAE2692B3353BE00D35782 /* ServiceManager.swift */; };
+		11EAE26D2B3353CE00D35782 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 11EAE26C2B3353CE00D35782 /* Alamofire */; };
+		11EAE26F2B3353F500D35782 /* ProductService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EAE26E2B3353F500D35782 /* ProductService.swift */; };
+		11EAE2712B33541600D35782 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EAE2702B33541600D35782 /* BaseService.swift */; };
+		11EAE2752B3354C100D35782 /* LiveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EAE2742B3354C100D35782 /* LiveData.swift */; };
+		11EAE2782B3354E700D35782 /* ProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EAE2772B3354E700D35782 /* ProductsViewModel.swift */; };
+		11EAE27B2B33563C00D35782 /* generalTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11EAE27A2B33563C00D35782 /* generalTableViewCell.xib */; };
+		11EAE27D2B33564E00D35782 /* generalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EAE27C2B33564E00D35782 /* generalTableViewCell.swift */; };
+		11EAE27F2B3358E000D35782 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EAE27E2B3358E000D35782 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +65,15 @@
 		11EAE24D2B334BDF00D35782 /* assessmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assessmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		11EAE25B2B334CA800D35782 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		11EAE25D2B334E0100D35782 /* UtilsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilsTest.swift; sourceTree = "<group>"; };
+		11EAE2652B33535500D35782 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		11EAE2692B3353BE00D35782 /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		11EAE26E2B3353F500D35782 /* ProductService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductService.swift; sourceTree = "<group>"; };
+		11EAE2702B33541600D35782 /* BaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
+		11EAE2742B3354C100D35782 /* LiveData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveData.swift; sourceTree = "<group>"; };
+		11EAE2772B3354E700D35782 /* ProductsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewModel.swift; sourceTree = "<group>"; };
+		11EAE27A2B33563C00D35782 /* generalTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = generalTableViewCell.xib; sourceTree = "<group>"; };
+		11EAE27C2B33564E00D35782 /* generalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generalTableViewCell.swift; sourceTree = "<group>"; };
+		11EAE27E2B3358E000D35782 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11EAE26D2B3353CE00D35782 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,10 +125,13 @@
 		11EAE2262B334BDE00D35782 /* assessment */ = {
 			isa = PBXGroup;
 			children = (
+				11EAE22B2B334BDE00D35782 /* ViewController.swift */,
+				11EAE2632B33533E00D35782 /* Model */,
+				11EAE2622B33533900D35782 /* Services */,
+				11EAE25F2B33531900D35782 /* Exercise2 */,
 				11EAE25A2B334C5500D35782 /* Exercise1 */,
 				11EAE2272B334BDE00D35782 /* AppDelegate.swift */,
 				11EAE2292B334BDE00D35782 /* SceneDelegate.swift */,
-				11EAE22B2B334BDE00D35782 /* ViewController.swift */,
 				11EAE22D2B334BDE00D35782 /* Main.storyboard */,
 				11EAE2332B334BDF00D35782 /* Assets.xcassets */,
 				11EAE2352B334BDF00D35782 /* LaunchScreen.storyboard */,
@@ -144,6 +167,68 @@
 			path = Exercise1;
 			sourceTree = "<group>";
 		};
+		11EAE25F2B33531900D35782 /* Exercise2 */ = {
+			isa = PBXGroup;
+			children = (
+				11EAE2612B33532B00D35782 /* ViewModel */,
+				11EAE2602B33532000D35782 /* View */,
+			);
+			path = Exercise2;
+			sourceTree = "<group>";
+		};
+		11EAE2602B33532000D35782 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				11EAE2792B33561C00D35782 /* Cell */,
+				11EAE27E2B3358E000D35782 /* TableViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		11EAE2612B33532B00D35782 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				11EAE2742B3354C100D35782 /* LiveData.swift */,
+				11EAE2772B3354E700D35782 /* ProductsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		11EAE2622B33533900D35782 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				11EAE2672B3353AA00D35782 /* Manager */,
+				11EAE26E2B3353F500D35782 /* ProductService.swift */,
+				11EAE2702B33541600D35782 /* BaseService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		11EAE2632B33533E00D35782 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				11EAE2652B33535500D35782 /* ProductModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		11EAE2672B3353AA00D35782 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				11EAE2692B3353BE00D35782 /* ServiceManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		11EAE2792B33561C00D35782 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				11EAE27A2B33563C00D35782 /* generalTableViewCell.xib */,
+				11EAE27C2B33564E00D35782 /* generalTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -160,6 +245,9 @@
 			dependencies = (
 			);
 			name = assessment;
+			packageProductDependencies = (
+				11EAE26C2B3353CE00D35782 /* Alamofire */,
+			);
 			productName = assessment;
 			productReference = 11EAE2242B334BDE00D35782 /* assessment.app */;
 			productType = "com.apple.product-type.application";
@@ -232,6 +320,9 @@
 				Base,
 			);
 			mainGroup = 11EAE21B2B334BDE00D35782;
+			packageReferences = (
+				11EAE26B2B3353CE00D35782 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 11EAE2252B334BDE00D35782 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -250,6 +341,7 @@
 			files = (
 				11EAE2372B334BDF00D35782 /* LaunchScreen.storyboard in Resources */,
 				11EAE2342B334BDF00D35782 /* Assets.xcassets in Resources */,
+				11EAE27B2B33563C00D35782 /* generalTableViewCell.xib in Resources */,
 				11EAE22F2B334BDE00D35782 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,10 +368,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				11EAE25C2B334CA800D35782 /* Utils.swift in Sources */,
+				11EAE2782B3354E700D35782 /* ProductsViewModel.swift in Sources */,
+				11EAE27F2B3358E000D35782 /* TableViewController.swift in Sources */,
+				11EAE26F2B3353F500D35782 /* ProductService.swift in Sources */,
+				11EAE2662B33535500D35782 /* ProductModel.swift in Sources */,
 				11EAE22C2B334BDE00D35782 /* ViewController.swift in Sources */,
 				11EAE2322B334BDE00D35782 /* assessment.xcdatamodeld in Sources */,
+				11EAE27D2B33564E00D35782 /* generalTableViewCell.swift in Sources */,
 				11EAE2282B334BDE00D35782 /* AppDelegate.swift in Sources */,
+				11EAE26A2B3353BE00D35782 /* ServiceManager.swift in Sources */,
+				11EAE2752B3354C100D35782 /* LiveData.swift in Sources */,
 				11EAE22A2B334BDE00D35782 /* SceneDelegate.swift in Sources */,
+				11EAE2712B33541600D35782 /* BaseService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -627,6 +727,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		11EAE26B2B3353CE00D35782 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		11EAE26C2B3353CE00D35782 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11EAE26B2B3353CE00D35782 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		11EAE2302B334BDE00D35782 /* assessment.xcdatamodeld */ = {
